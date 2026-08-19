@@ -47,6 +47,7 @@ pnpm-debug.log*
 tmp/
 temp/
 *.tmp
+*.pdf
 
 # Local CMS / WordPress runtime
 wp-config.php

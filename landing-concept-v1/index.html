@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Рыбные деликатесы «Рыбец 64» — частная коллекция вкуса."
+    />
+    <title>Рыбец 64 — частная коллекция вкуса</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__image" aria-hidden="true"></div>
+        <div class="hero__shade" aria-hidden="true"></div>
+
+        <header class="site-header">
+          <a class="brand" href="#hero-title" aria-label="Рыбец 64, на первый экран">
+            <span class="brand__mark">Р64</span>
+            <span class="brand__name">Рыбец 64</span>
+          </a>
+
+          <nav class="site-nav" aria-label="Основная навигация">
+            <a href="#collections">Коллекции</a>
+            <a href="#curator">О продукте</a>
+            <a href="#collections">Каталог</a>
+          </nav>
+
+          <a class="cart-link" href="#collections">
+            Корзина <span aria-hidden="true">00</span>
+          </a>
+        </header>
+
+        <div class="hero__content">
+          <p class="eyebrow">Гастрономическая коллекция · Саратов</p>
+          <h1 id="hero-title">Частная<br />коллекция<br /><em>вкуса</em></h1>
+          <p class="hero__lead">
+            Рыбные деликатесы, представленные с вниманием к происхождению,
+            характеру продукта и деталям подачи.
+          </p>
+          <a class="primary-link" href="#collections">
+            Смотреть коллекцию <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="hero__catalogue" aria-label="Описание экспоната">
+          <span>Экспонат 01</span>
+          <span>Копчёная рыба</span>
+        </div>
+
+        <a class="scroll-cue" href="#curator" aria-label="Перейти к следующему разделу">
+          <span>Листать</span>
+          <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="curator section" id="curator" aria-labelledby="curator-title">
+        <div class="section-index" aria-hidden="true">01 / Автор</div>
+
+        <div class="curator__portrait">
+          <img
+            src="../assets/landing-concept-v1/curator-placeholder.png"
+            alt="Портрет мужчины в фартуке на рабочей кухне"
+          />
+        </div>
+
+        <div class="curator__story">
+          <p class="eyebrow">Автор и куратор коллекции</p>
+          <h2 id="curator-title">За каждым продуктом должен стоять <em>человек</em></h2>
+        </div>
+      </section>
+
+      <section class="collections section" id="collections" aria-labelledby="collections-title">
+        <div class="collections__heading">
+          <div>
+            <div class="section-index" aria-hidden="true">02 / Коллекции</div>
+          </div>
+          <h2 id="collections-title">Выберите свой <em>зал</em></h2>
+        </div>
+
+        <div class="collection-grid">
+          <a class="collection-card collection-card--whole" href="#">
+            <img
+              src="../assets/landing-concept-v1/collections-triptych.png"
+              alt="Концептуальная фотография рыбы целиком"
+            />
+            <span class="collection-card__number">I</span>
+            <span class="collection-card__content">
+              <small>Коллекция</small>
+              <strong>Рыба целиком</strong>
+              <span>Перейти ↗</span>
+            </span>
+          </a>
+
+          <a class="collection-card collection-card--fillet" href="#">
+            <img
+              src="../assets/landing-concept-v1/collections-triptych.png"
+              alt="Концептуальная фотография рыбного филе"
+            />
+            <span class="collection-card__number">II</span>
+            <span class="collection-card__content">
+              <small>Коллекция</small>
+              <strong>Филе и нарезка</strong>
+              <span>Перейти ↗</span>
+            </span>
+          </a>
+
+          <a class="collection-card collection-card--delicacy" href="#">
+            <img
+              src="../assets/landing-concept-v1/collections-triptych.png"
+              alt="Концептуальная фотография ассорти из рыбных деликатесов"
+            />
+            <span class="collection-card__number">III</span>
+            <span class="collection-card__content">
+              <small>Коллекция</small>
+              <strong>Икра и деликатесы</strong>
+              <span>Перейти ↗</span>
+            </span>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

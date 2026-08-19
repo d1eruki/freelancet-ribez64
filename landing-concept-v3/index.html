@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Рыбец 64" />
+    <title>Рыбец 64</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="#catalogue">Каталог</a>
+        <a href="#story">О бренде</a>
+      </nav>
+
+      <a class="brand" href="#hero" aria-label="Рыбец 64, на первый экран">
+        <span class="brand__mark">Р64</span>
+        <span class="brand__name">Рыбец 64</span>
+      </a>
+
+      <a class="cart" href="#catalogue">Корзина <span>0</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero__frame" aria-hidden="true"></div>
+        <div class="hero__halo" aria-hidden="true"></div>
+        <img
+          class="hero__medallion"
+          src="../assets/landing-concept-v3/fish-medallion.svg"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <div class="hero__copy">
+          <p class="hero__kicker">Рыбные деликатесы</p>
+          <h1 id="hero-title">Частная коллекция <em>вкуса</em></h1>
+        </div>
+
+        <figure class="hero__product">
+          <img
+            src="../assets/landing-concept-v3/hero-fish.png"
+            alt="Вертикальный пласт красной рыбы на круглой деревянной тарелке"
+          />
+        </figure>
+
+        <a class="hero__cta" href="#catalogue">
+          Открыть каталог <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+      <section id="story" aria-label="История"></section>
+      <section id="catalogue" aria-label="Каталог"></section>
+    </main>
+  </body>
+</html>

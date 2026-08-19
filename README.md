@@ -4,7 +4,8 @@
 
 ## Материалы
 
-- [`docs/proposal.md`](docs/proposal.md) — рабочая концепция коммерческого предложения.
+- [`docs/landing-proposal.md`](docs/landing-proposal.md) — концепция КП для имиджевого лендинга.
+- [`docs/store-proposal.md`](docs/store-proposal.md) — концепция КП для интернет-магазина.
 - [`docs/moodboard.md`](docs/moodboard.md) — описание визуальных референсов.
-- [`docs/site-audit.md`](docs/site-audit.md) — первичный аудит текущего сайта.
+- [`docs/store-audit.md`](docs/store-audit.md) — первичный аудит текущего интернет-магазина.
 - `assets/moodboard/` — исходные визуальные референсы.
